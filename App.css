@@ -1,0 +1,16 @@
+body{
+   background-color: #F6F7F8 ;
+}
+.search-box {
+   padding: 10px;
+   border-radius: 5px;
+   border: 1px solid #ccc;
+   width: 200px;
+   display: none; /* Initially hidden */
+   transition: opacity 0.3s ease-in-out;
+ }
+ 
+ .search-box.visible {
+   display: block; /* Make visible when the "visible" class is added */
+ }
+ 
